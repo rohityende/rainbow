@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animaitions</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <!-- <div class="container">
+        
+       <div class="box box2"></div>
+       <div class="box box3"></div>
+       <div class="box box4"></div>
+       <div class="box box5"></div>
+       <div class="box box6"></div>
+       <div class="box box7"></div>
+       <div class="box box8"></div>
+       <div class="box box9"></div>
+          
+        </div>
+      </div> -->
+    <div class="main">
+      <div class="b1"></div>
+      <div class="b2"></div>
+      <div class="b3"></div>
+      <div class="b4"></div>
+      <div class="b5"></div>
+      <div class="b6"></div>
+      <div class="b7"></div>
+      <div class="b8"></div>
+      <div class="b9"></div>
+      <div class="b10"></div>
+      <div class="b11"></div>
+      <div class="b12"></div>
+      <div class="b13"></div>
+      <div class="b14"></div>
+      <div class="b15"></div>
+      <div class="b16"></div>
+      <div class="b17"></div>
+      <div class="b18"></div>
+      <div class="b19"></div>
+      <div class="b20"></div>
+      <div class="b21"></div>
+      <div class="b22"></div>
+      <div class="b23"></div>
+      <div class="b24"></div>
+      <div class="b25"></div>
+      <div class="b26"></div>
+    </div>
+
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .main {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        color: black;
+        background: #fff;
+        display: grid;
+
+        place-items: center;
+      }
+      .main div {
+        /* width: 150px; */
+        /* height: 150px; */
+        /* background: teal; */
+        position: absolute;
+        /* background: #000; */
+      }
+
+      @keyframes rotates {
+        0% {
+          transform: rotate(0deg);
+          border: 1px solid rgb(0, 0, 0);
+        }
+        /* /* 25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);} */
+        50% {
+          transform: rotate(360deg);
+        }
+        100% {
+          transform: rotate(0deg);
+          border: 1px solid white;
+          border-radius: 5px;
+        }
+      }
+
+      .b1 {
+        width: 650px;
+        height: 650px;
+        background: #e00000;
+        animation: rotates 10s 0s infinite;
+      }
+
+      .b2 {
+        width: 625px;
+        height: 625px;
+        background: #e03800;
+        animation: rotates 10s 0.1s infinite;
+      }
+
+      .b3 {
+        width: 600px;
+        height: 600px;
+        background: #e07000;
+        animation: rotates 10s 0.2s infinite;
+      }
+
+      .b4 {
+        width: 575px;
+        height: 575px;
+        background: #e0a800;
+        animation: rotates 10s 0.3s infinite;
+      }
+
+      .b5 {
+        width: 550px;
+        height: 550px;
+        background: #e0e000;
+        animation: rotates 10s 0.4s infinite;
+      }
+
+      .b6 {
+        width: 525px;
+        height: 525px;
+        background: #a8e000;
+        animation: rotates 10s 0.5s infinite;
+      }
+
+      .b7 {
+        width: 500px;
+        height: 500px;
+        background: #70e000;
+        animation: rotates 10s 0.6s infinite;
+      }
+
+      .b8 {
+        width: 475px;
+        height: 475px;
+        background: #38e000;
+        animation: rotates 10s 0.7s infinite;
+      }
+
+      .b9 {
+        width: 450px;
+        height: 450px;
+        background: #00e000;
+        animation: rotates 10s 0.8s infinite;
+      }
+
+      .b10 {
+        width: 425px;
+        height: 425px;
+        background: #00e038;
+        animation: rotates 10s 0.9s infinite;
+      }
+
+      .b11 {
+        width: 400px;
+        height: 400px;
+        background: #00e070;
+        animation: rotates 10s 1s infinite;
+      }
+
+      .b12 {
+        width: 375px;
+        height: 375px;
+        background: #00e0a8;
+        animation: rotates 10s 1.1s infinite;
+      }
+
+      .b13 {
+        width: 350px;
+        height: 350px;
+        background: #00e0e0;
+        animation: rotates 10s 1.2s infinite;
+      }
+
+      .b14 {
+        width: 325px;
+        height: 325px;
+        background: #00a8e0;
+        animation: rotates 10s 1.3s infinite;
+      }
+
+      .b15 {
+        width: 300px;
+        height: 300px;
+        background: #0070e0;
+        animation: rotates 10s 1.4s infinite;
+      }
+
+      .b16 {
+        width: 275px;
+        height: 275px;
+        background: #0038e0;
+        animation: rotates 10s 1.5s infinite;
+      }
+
+      .b17 {
+        width: 250px;
+        height: 250px;
+        background: #0000e0;
+        animation: rotates 10s 1.6s infinite;
+      }
+
+      .b18 {
+        width: 225px;
+        height: 225px;
+        background: #3800e0;
+        animation: rotates 10s 1.7s infinite;
+      }
+
+      .b19 {
+        width: 200px;
+        height: 200px;
+        background: #7000e0;
+        animation: rotates 10s 1.8s infinite;
+      }
+
+      .b20 {
+        width: 175px;
+        height: 175px;
+        background: #a800e0;
+        animation: rotates 10s 1.9s infinite;
+      }
+
+      .b21 {
+        width: 150px;
+        height: 150px;
+        background: #e000e0;
+        animation: rotates 10s 2s infinite;
+      }
+
+      .b22 {
+        width: 125px;
+        height: 125px;
+        background: #e000a8;
+        animation: rotates 10s 2.1s infinite;
+      }
+
+      .b23 {
+        width: 100px;
+        height: 100px;
+        background: #e00070;
+        animation: rotates 10s 2.2s infinite;
+      }
+
+      .b24 {
+        width: 75px;
+        height: 75px;
+        background: #e00038;
+        animation: rotates 10s 2.3s infinite;
+      }
+
+      .b25 {
+        width: 50px;
+        height: 50px;
+        background: #e00000;
+        animation: rotates 10s 2.4s infinite;
+      }
+
+      .b26 {
+        width: 25px;
+        height: 25px;
+        background: #e00000;
+        animation: rotates 10s 2.5s infinite;
+      }
+    </style>
+  </body>
+</html>
